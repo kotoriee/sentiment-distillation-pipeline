@@ -1,0 +1,460 @@
+#!/usr/bin/env python3
+"""
+方案二训练脚本 - Rationale Distillation (CoT + Soft Labels)
+
+基于 unsloth QLoRA，支持：
+1. 软标签蒸馏 (KL Divergence)
+2. CoT 推理链生成
+
+Usage:
+    # 小批量测试 (700条)
+    python train_rationale_distillation.py --data data/train_700.json --test
+
+    # 全量训练 (7172条)
+    python train_rationale_distillation.py --data data/train_conversations.json
+
+    # 硬标签对比
+    python train_rationale_distillation.py --data data/train_700.json --hard-label
+
+Note: 此脚本需要在 WSL 环境中运行（GPU + unsloth 依赖）
+"""
+
+import os
+import sys
+import json
+import argparse
+from pathlib import Path
+from typing import Dict, Optional, List
+
+import torch
+import torch.nn.functional as F
+from torch.utils.data import Dataset
+
+
+# ============== 配置 ==============
+
+DEFAULT_MODEL = "unsloth/Qwen3-4B-unsloth-bnb-4bit"
+DEFAULT_OUTPUT = "models/qwen3-4b-rationale-distill"
+MAX_SEQ_LENGTH = 512
+LORA_RANK = 16
+RANDOM_STATE = 3407
+TEMPERATURE = 2.0  # 温度缩放，软化分布
+DATA_DIR = Path("d:/0321/workspaces/rationale_distillation_9k/data")
+
+
+class RationaleDistillationTrainer:
+    """CoT + Soft Label 蒸馏训练器
+
+    特点：
+    1. 支持软标签 KL Divergence
+    2. 训练模型生成 CoT 推理链 + sentiment
+    """
+
+    def __init__(
+        self,
+        model,
+        tokenizer,
+        train_dataset,
+        args,
+        temperature: float = TEMPERATURE,
+        use_soft_labels: bool = True,
+        alpha: float = 0.5,  # soft_loss 权重
+    ):
+        self.model = model
+        self.tokenizer = tokenizer
+        self.train_dataset = train_dataset
+        self.args = args
+        self.temperature = temperature
+        self.use_soft_labels = use_soft_labels
+        self.alpha = alpha
+
+        # 获取 sentiment token IDs
+        self.id_0 = tokenizer.encode('0', add_special_tokens=False)[0]
+        self.id_1 = tokenizer.encode('1', add_special_tokens=False)[0]
+        self.id_2 = tokenizer.encode('2', add_special_tokens=False)[0]
+        self.sentiment_token_ids = [self.id_0, self.id_1, self.id_2]
+
+        print(f"Sentiment token IDs: 0={self.id_0}, 1={self.id_1}, 2={self.id_2}")
+        print(f"Temperature: {temperature}, Alpha: {alpha}, Use soft labels: {use_soft_labels}")
+
+    def compute_loss(self, model, inputs, return_outputs=False, **kwargs):
+        """
+        混合 Loss: SFT (全序列 CE) + KL (仅 sentiment token)
+        """
+        soft_labels = inputs.pop("soft_labels", None) if self.use_soft_labels else None
+        sentiment_pos = inputs.pop("sentiment_pos", None)
+        labels = inputs.pop("labels", None)
+
+        outputs = model(**inputs)
+        logits = outputs.logits  # BF16
+
+        # ---------------------------------------------------------
+        # 1. SFT Loss (BF16 直接输入)
+        # ---------------------------------------------------------
+        shift_logits = logits[..., :-1, :].contiguous()
+        shift_labels = labels[..., 1:].contiguous()
+
+        if (shift_labels != -100).sum() == 0:
+            sft_loss = torch.tensor(0.0, device=logits.device, requires_grad=True)
+        else:
+            loss_fct = torch.nn.CrossEntropyLoss(reduction='mean')
+            sft_loss = loss_fct(
+                shift_logits.view(-1, shift_logits.size(-1)),
+                shift_labels.view(-1)
+            )
+
+        # ---------------------------------------------------------
+        # 2. KL Loss (仅 sentiment token)
+        # ---------------------------------------------------------
+        kl_losses = []
+        if self.use_soft_labels and soft_labels is not None and sentiment_pos is not None:
+            soft_labels = soft_labels.to(logits.device)
+
+            for b in range(logits.size(0)):
+                pos = sentiment_pos[b].item()
+                if pos == -1:
+                    continue
+
+                target_logit_pos = pos - 1
+                if target_logit_pos < 0 or target_logit_pos >= logits.size(1):
+                    continue
+
+                # 仅提取 3 个 sentiment token logits
+                sentiment_logits = logits[b, target_logit_pos, self.sentiment_token_ids].float()
+                sentiment_logits = sentiment_logits / self.temperature
+                student_log_probs = F.log_softmax(sentiment_logits, dim=-1)
+                teacher_probs = soft_labels[b]
+
+                kl = F.kl_div(student_log_probs, teacher_probs, reduction='sum')
+                kl = kl * (self.temperature ** 2)
+                kl_losses.append(kl)
+
+        # ---------------------------------------------------------
+        # 3. 合并
+        # ---------------------------------------------------------
+        if kl_losses:
+            kl_loss = torch.stack(kl_losses).mean()
+            total_loss = self.alpha * kl_loss + (1 - self.alpha) * sft_loss
+        else:
+            kl_loss = torch.tensor(0.0, device=logits.device)
+            total_loss = sft_loss
+
+        if not hasattr(self, '_debug_step'):
+            self._debug_step = 0
+        if self._debug_step < 5:
+            print(f"\n  [debug step {self._debug_step}] sft={sft_loss.item():.4f}  "
+                  f"kl={kl_loss.item():.4f}  total={total_loss.item():.4f}")
+            self._debug_step += 1
+
+        return (total_loss, outputs) if return_outputs else total_loss
+
+    def _pre_tokenize_dataset(self, raw_data: List) -> List:
+        """手动 tokenize，保留 soft_labels 和 sentiment_pos"""
+        records = []
+        raw_list = raw_data if isinstance(raw_data, list) else list(raw_data)
+        n_valid = 0
+
+        for item in raw_list:
+            conv = item['conversations']
+
+            full_text = self.tokenizer.apply_chat_template(
+                conv, tokenize=False, add_generation_prompt=False
+            )
+            prefix_text = self.tokenizer.apply_chat_template(
+                conv[:-1], tokenize=False, add_generation_prompt=True
+            )
+
+            full_ids = self.tokenizer.encode(full_text, add_special_tokens=False)
+            prefix_len = len(self.tokenizer.encode(prefix_text, add_special_tokens=False))
+
+            full_ids = full_ids[:MAX_SEQ_LENGTH]
+            prefix_len = min(prefix_len, len(full_ids))
+            labels = [-100] * prefix_len + full_ids[prefix_len:]
+
+            # 定位 sentiment token
+            sentiment_pos = -1
+            target_str = '"sentiment": '
+            last_idx = full_text.rfind(target_str)
+            if last_idx != -1:
+                exact_prefix = full_text[:last_idx + len(target_str)]
+                pos = len(self.tokenizer.encode(exact_prefix, add_special_tokens=False))
+                if pos < len(full_ids) and full_ids[pos] in self.sentiment_token_ids:
+                    sentiment_pos = pos
+                    n_valid += 1
+
+            records.append({
+                'input_ids': full_ids,
+                'attention_mask': [1] * len(full_ids),
+                'labels': labels,
+                'soft_labels': item.get('soft_labels', [0.33, 0.33, 0.33]),
+                'sentiment_pos': sentiment_pos,
+            })
+
+        print(f"  Sentiment position found: {n_valid}/{len(records)} samples")
+        return records
+
+    def train(self):
+        """训练流程"""
+        from trl import SFTTrainer, SFTConfig
+        from datasets import Dataset as HFDataset
+        from transformers import TrainingArguments
+
+        # Pre-tokenize
+        print("Pre-tokenizing dataset...")
+        records = self._pre_tokenize_dataset(self.train_dataset)
+        dataset = HFDataset.from_list(records)
+        print(f"  Pre-tokenized: {len(dataset)} examples, columns: {dataset.column_names}")
+
+        # 验证第一条样本
+        sample = dataset[0]
+        assistant_tokens = [t for t in sample['labels'] if t != -100]
+        print(f"  Sample: input_len={len(sample['input_ids'])}, "
+              f"supervised_len={len(assistant_tokens)}, "
+              f"soft_labels={sample['soft_labels']}")
+
+        # DataCollator
+        pad_id = self.tokenizer.pad_token_id or self.tokenizer.eos_token_id or 0
+
+        class SoftLabelDataCollator:
+            def __call__(self, features):
+                soft_labels = [f.pop('soft_labels') for f in features]
+                sentiment_pos = [f.pop('sentiment_pos') for f in features]
+                max_len = max(len(f['input_ids']) for f in features)
+
+                input_ids = torch.tensor([
+                    f['input_ids'] + [pad_id] * (max_len - len(f['input_ids']))
+                    for f in features
+                ], dtype=torch.long)
+                labels_t = torch.tensor([
+                    f['labels'] + [-100] * (max_len - len(f['labels']))
+                    for f in features
+                ], dtype=torch.long)
+                attention_mask = torch.tensor([
+                    f['attention_mask'] + [0] * (max_len - len(f['attention_mask']))
+                    for f in features
+                ], dtype=torch.long)
+
+                return {
+                    'input_ids': input_ids,
+                    'attention_mask': attention_mask,
+                    'labels': labels_t,
+                    'soft_labels': torch.tensor(soft_labels, dtype=torch.float32),
+                    'sentiment_pos': torch.tensor(sentiment_pos, dtype=torch.long),
+                }
+
+        # TrainingArguments
+        training_args = TrainingArguments(
+            output_dir=self.args.output_dir,
+            per_device_train_batch_size=self.args.per_device_train_batch_size,
+            gradient_accumulation_steps=self.args.gradient_accumulation_steps,
+            warmup_steps=self.args.warmup_steps,
+            num_train_epochs=self.args.num_train_epochs,
+            max_steps=self.args.max_steps,
+            learning_rate=self.args.learning_rate,
+            logging_steps=self.args.logging_steps,
+            optim=self.args.optim,
+            weight_decay=self.args.weight_decay,
+            lr_scheduler_type=self.args.lr_scheduler_type,
+            seed=self.args.seed,
+            report_to=self.args.report_to,
+            bf16=self.args.bf16,
+            fp16=self.args.fp16,
+            dataloader_num_workers=self.args.dataloader_num_workers,
+            dataloader_pin_memory=self.args.dataloader_pin_memory,
+            remove_unused_columns=False,
+        )
+
+        from transformers import Trainer
+        trainer = Trainer(
+            model=self.model,
+            args=training_args,
+            train_dataset=dataset,
+            data_collator=SoftLabelDataCollator(),
+        )
+
+        # 替换 compute_loss
+        trainer.compute_loss = lambda model, inputs, return_outputs=False, **kwargs: \
+            self.compute_loss(model, inputs, return_outputs, **kwargs)
+
+        return trainer.train()
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="方案二 CoT + Soft Label 训练")
+    parser.add_argument("--model", type=str, default=DEFAULT_MODEL)
+    parser.add_argument("--data", type=str, default=str(DATA_DIR / "train_700.json"))
+    parser.add_argument("--output", type=str, default=DEFAULT_OUTPUT)
+    parser.add_argument("--epochs", type=int, default=3)
+    parser.add_argument("--batch", type=int, default=1)
+    parser.add_argument("--grad-acc", type=int, default=16)
+    parser.add_argument("--lr", type=float, default=2e-5)
+    parser.add_argument("--test", action="store_true", help="测试模式: 30步")
+    parser.add_argument("--hard-label", action="store_true", help="使用硬标签 (标准SFT)")
+    parser.add_argument("--temperature", type=float, default=TEMPERATURE)
+    parser.add_argument("--alpha", type=float, default=0.5, help="软标签 loss 权重")
+    return parser.parse_args()
+
+
+def main():
+    args = parse_args()
+
+    # 加载依赖
+    try:
+        from unsloth import FastLanguageModel
+        from trl import SFTTrainer, SFTConfig
+        from datasets import Dataset as HFDataset
+    except ImportError as e:
+        print(f"缺少依赖: {e}")
+        print("请安装: pip install unsloth trl datasets")
+        print("提示: 此脚本需要在 WSL 环境中运行")
+        return
+
+    # 加载数据
+    data_path = Path(args.data)
+    if not data_path.exists():
+        print(f"错误: 训练数据不存在: {data_path}")
+        return
+
+    with open(data_path, "r", encoding="utf-8") as f:
+        raw_data = json.load(f)
+
+    print(f"加载训练数据: {len(raw_data)} 条")
+    print(f"数据路径: {data_path}")
+    print(f"使用 {'硬标签' if args.hard_label else '软标签'} 训练")
+
+    # 验证 soft_labels
+    if not args.hard_label:
+        sample = raw_data[0]
+        if 'soft_labels' not in sample:
+            print("警告: 数据中没有 soft_labels，将使用硬标签")
+            args.hard_label = True
+        else:
+            print(f"Soft labels 示例: {sample['soft_labels']}")
+            # 显示 CoT
+            convs = sample['conversations']
+            assistant_content = convs[2]['content']
+            print(f"CoT 示例: {assistant_content[:200]}...")
+
+    # 加载模型
+    print(f"\n加载模型: {args.model}")
+    model, tokenizer = FastLanguageModel.from_pretrained(
+        model_name=args.model,
+        max_seq_length=MAX_SEQ_LENGTH,
+        load_in_4bit=True,
+        load_in_8bit=False,
+        full_finetuning=False,
+    )
+
+    # 添加 LoRA adapters
+    model = FastLanguageModel.get_peft_model(
+        model,
+        r=LORA_RANK,
+        target_modules=["q_proj", "k_proj", "v_proj", "o_proj",
+                        "gate_proj", "up_proj", "down_proj"],
+        lora_alpha=LORA_RANK,
+        lora_dropout=0,
+        bias="none",
+        use_gradient_checkpointing="unsloth",
+        random_state=RANDOM_STATE,
+        use_rslora=False,
+        loftq_config=None,
+    )
+
+    # 显示内存状态
+    if torch.cuda.is_available():
+        gpu_stats = torch.cuda.get_device_properties(0)
+        start_mem = round(torch.cuda.max_memory_reserved() / 1024 ** 3, 2)
+        max_mem = round(gpu_stats.total_memory / 1024 ** 3, 2)
+        print(f"\nGPU: {gpu_stats.name} | 总显存: {max_mem} GB | 已用: {start_mem} GB")
+
+    # 训练步数
+    n_examples = len(raw_data)
+    total_steps = (n_examples // (args.batch * args.grad_acc)) * (args.epochs if not args.test else 1)
+    warmup_steps = max(1, int(total_steps * 0.1))
+
+    # SFTConfig
+    sft_config = SFTConfig(
+        dataset_text_field="text",
+        per_device_train_batch_size=args.batch,
+        gradient_accumulation_steps=args.grad_acc,
+        warmup_steps=warmup_steps,
+        num_train_epochs=args.epochs if not args.test else 1,
+        max_steps=30 if args.test else -1,
+        learning_rate=args.lr,
+        logging_steps=10,
+        optim="adamw_8bit",
+        weight_decay=0.01,
+        lr_scheduler_type="linear",
+        seed=RANDOM_STATE,
+        output_dir=args.output + "_checkpoints",
+        report_to="none",
+        bf16=True,
+        fp16=False,
+        max_seq_length=MAX_SEQ_LENGTH,
+        packing=False,
+        dataloader_num_workers=0,
+        dataloader_pin_memory=False,
+    )
+
+    # 创建训练器
+    trainer = RationaleDistillationTrainer(
+        model=model,
+        tokenizer=tokenizer,
+        train_dataset=raw_data,
+        args=sft_config,
+        temperature=args.temperature,
+        use_soft_labels=not args.hard_label,
+        alpha=args.alpha,
+    )
+
+    print(f"\n开始训练:")
+    print(f"  数据: {n_examples} 条")
+    print(f"  Epochs: {args.epochs if not args.test else '1 (test: 30 steps)'}")
+    print(f"  Batch: {args.batch} x grad_acc {args.grad_acc}")
+    print(f"  LR: {args.lr}")
+    print(f"  Temperature: {args.temperature}")
+    print(f"  Alpha (soft weight): {args.alpha}")
+    print("=" * 60)
+
+    # 训练
+    trainer_stats = trainer.train()
+
+    # 显示训练统计
+    if torch.cuda.is_available():
+        used_mem = round(torch.cuda.max_memory_reserved() / 1024 ** 3, 2)
+        print(f"\n训练时间: {trainer_stats.metrics['train_runtime']:.0f}s "
+              f"({trainer_stats.metrics['train_runtime']/60:.1f} min)")
+        print(f"峰值显存: {used_mem} GB")
+
+    # 保存模型
+    output_dir = Path(args.output)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    model.save_pretrained(str(output_dir))
+    tokenizer.save_pretrained(str(output_dir))
+    print(f"\n模型已保存: {output_dir}")
+
+    # 记录配置
+    config = {
+        "model": args.model,
+        "data": str(data_path),
+        "n_examples": n_examples,
+        "epochs": args.epochs if not args.test else 1,
+        "temperature": args.temperature,
+        "alpha": args.alpha,
+        "use_soft_labels": not args.hard_label,
+        "max_steps": 30 if args.test else -1,
+        "approach": "rationale_distillation",
+    }
+    with open(output_dir / "train_config.json", "w", encoding="utf-8") as f:
+        json.dump(config, f, indent=2)
+
+    print("=" * 60)
+    print("训练完成!")
+    print(f"  模型: {output_dir}")
+    print(f"  配置: {output_dir}/train_config.json")
+    print("=" * 60)
+
+
+if __name__ == "__main__":
+    main()
