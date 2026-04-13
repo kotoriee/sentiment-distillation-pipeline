@@ -135,23 +135,32 @@ python eval_model.py --model ../3_lora_training/models/qwen3-4b-rationale --data
 
 ## 环境配置
 
-**新电脑安装指南**: 请参考 [SETUP.md](SETUP.md)
+**环境选择**：
 
-快速安装（干净环境）：
+| 环境 | 可用性 | 说明 |
+|-----|-------|------|
+| Windows 原生 | ✅ | 新电脑干净环境即可，见 [SETUP_WINDOWS.md](SETUP_WINDOWS.md) |
+| WSL2 Linux | ✅ | Linux体验更好，见 [SETUP.md](SETUP.md) |
+| Google Colab | ✅ | GPU更强（T4 16GB），适合全量训练 |
 
-```bash
+**快速安装（Windows 原生）**：
+
+```powershell
 # 1. 创建 conda 环境
 conda create -n sentiment python=3.10 -y
 conda activate sentiment
 
-# 2. 安装 Unsloth（官方脚本，避免依赖冲突）
-curl -fsSL https://unsloth.ai/install.sh | sh
+# 2. 安装 Unsloth
+pip install unsloth
+pip install --no-deps transformers==4.45.0
+pip install bitsandbytes trl peft datasets
 
-# 3. 安装其他依赖
-pip install -r requirements.txt
-
-# 4. 克隆项目
+# 3. 克隆项目
 git clone https://github.com/kotoriee/sentiment-distillation-pipeline.git
+cd sentiment-distillation-pipeline
+
+# 4. 安装其他依赖
+pip install -r requirements.txt
 ```
 
 ## 依赖安装
