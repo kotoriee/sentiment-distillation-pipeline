@@ -1,0 +1,14 @@
+{
+  "model": "bert-base-uncased (soft label)",
+  "train_samples": 7172,
+  "epochs": 3,
+  "lr": 2e-05,
+  "temperature": 2.0,
+  "loss": "KL-divergence",
+  "test_accuracy": 0.8093645484949833,
+  "test_f1": 0.8074867498527761,
+  "train_time": 438.4480435848236,
+  "inference_time_per_sample": 0.0069847237173397275,
+  "max_len": 256,
+  "batch_size": 16
+}

@@ -1,0 +1,14 @@
+{
+  "model": "bert-base-uncased",
+  "train_samples": 7172,
+  "epochs": 3,
+  "lr": 2e-05,
+  "val_accuracy": 0.8058035714285714,
+  "val_f1": 0.8066498616029177,
+  "test_accuracy": 0.7993311036789298,
+  "test_f1": 0.8011229734256028,
+  "train_time": 467.00551176071167,
+  "inference_time_per_sample": 0.007038743466703655,
+  "max_len": 256,
+  "batch_size": 16
+}

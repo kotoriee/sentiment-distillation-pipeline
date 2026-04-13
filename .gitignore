@@ -46,6 +46,8 @@ checkpoint-*/
 models/*/adapter_config.json
 models/*/adapter_model.safetensors
 models/*/tokenizer.json
+baseline_results/*.pt
+baseline_results/*.pth
 
 # Unsloth compiled cache
 unsloth_compiled_cache/

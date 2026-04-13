@@ -1,0 +1,11 @@
+{
+  "model": "SVM + TF-IDF",
+  "train_samples": 7172,
+  "val_accuracy": 0.7566964285714286,
+  "val_f1": 0.7591494674570471,
+  "test_accuracy": 0.7681159420289855,
+  "test_f1": 0.7699291311516198,
+  "train_time": 108.31429362297058,
+  "inference_time_per_sample": 0.00213872230172556,
+  "feature_dim": 10000
+}
