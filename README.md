@@ -133,17 +133,38 @@ python eval_model.py --model ../3_lora_training/models/qwen3-4b-rationale --data
 }
 ```
 
-## 依赖安装
+## 环境配置
+
+**新电脑安装指南**: 请参考 [SETUP.md](SETUP.md)
+
+快速安装（干净环境）：
 
 ```bash
+# 1. 创建 conda 环境
+conda create -n sentiment python=3.10 -y
+conda activate sentiment
+
+# 2. 安装 Unsloth（官方脚本，避免依赖冲突）
+curl -fsSL https://unsloth.ai/install.sh | sh
+
+# 3. 安装其他依赖
 pip install -r requirements.txt
+
+# 4. 克隆项目
+git clone https://github.com/kotoriee/sentiment-distillation-pipeline.git
 ```
+
+## 依赖安装
+
+完整依赖清单见 [requirements.txt](requirements.txt)
 
 推荐使用官方Unsloth安装脚本：
 
 ```bash
 curl -fsSL https://unsloth.ai/install.sh | sh
 ```
+
+⚠️ **不要使用 `pip install unsloth`**，会导致 transformers 版本冲突。
 
 ## Colab训练
 
