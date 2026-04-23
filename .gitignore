@@ -73,3 +73,6 @@ Thumbs.db
 *.tmp
 *.temp
 .cache/
+
+# LoRA trained adapters (exclude from repo)
+3_lora_training/models/

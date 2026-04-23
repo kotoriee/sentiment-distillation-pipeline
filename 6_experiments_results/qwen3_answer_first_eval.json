@@ -1,0 +1,5392 @@
+{
+  "accuracy": 79.57317073170732,
+  "total": 897,
+  "correct": 522,
+  "parse_errors": 241,
+  "speed": 2.941342779049751,
+  "infer_time": 304.9627559185028,
+  "results": [
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": " bit more than 1 cent per sponge. I think this is "
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": ", it's worth it for the quality and the experience"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " a problem.  I have no idea what the problem is wi"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " the porch.  The sound is clear.  The video is ver"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " a bit of extra help with their feet. I have used "
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " not comfortable. It is not comfortable. It is not"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": ". I wanted something that would be more like a pas"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": ". I'm not sure if this is a style issue or a quali"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " I would not recommend this to anyone who likes th"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " that I will be returning this product to the stor"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " I<br />Look in the mirror. I thought it was a whi"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " over again, I would not choose this product.<br /"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " cheeks. However, it does not absorb into the skin"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " hoping for better.  I've tried everything I can t"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " a little loose, then it started to fall apart. Th"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": ".  The comb is cheap, and the case is cheap.  I ha"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": ", I'm not sure if I should be angry or just confus"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " it myself. But I don't have a child, so I don't h"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " the high quality of the product, I'm not going to"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": ". I think this is a great product. I would recomme"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "asy. I have used it for 2 weeks and it's still wor"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": ") and on upper lip.  I have used it for several mo"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " it. I'm not sure if that's a problem with the Kin"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " styling cream, I prefer to use a leave-in conditi"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": " have been using them for 2 months and they are st"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " I can't return it because it's not the right prod"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": "br />The bag is very light, very soft, and very co"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " clean. It's gentle enough for sensitive skin and "
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 2,
+      "correct": false,
+      "raw": "20000000000000000000"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " definitely buy another one for my sister. I have "
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " something else. I’m so sorry for the disappointme"
+    },
+    {
+      "true": 0,
+      "pred": 2,
+      "correct": false,
+      "raw": "2.0\n5.0\n3.0\n4.0\n3.0\n"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": ". I would also recommend it to others. I would als"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " from buying again. I would recommend this product"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " are not for sale.  I do not accept any discounts "
+    },
+    {
+      "true": 0,
+      "pred": 2,
+      "correct": false,
+      "raw": " even get me started on the 2000000000000"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": " so I had to go to 8 /14. I'm 5'10\","
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " definitely buy another one. I have a second one i"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " extremely overpriced for the quality of the produ"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": " the first place. I would not recommend this produ"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " prefer. I do not care for the smell. I do not car"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "20000000000000000000"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": "  I can't get it into the pouch.  I can't get it i"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " time, I have no other options. So I have to use i"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": "4-star rating. I'm not sure why it's not 5 stars. "
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " brush that I would recommend to anyone who wants "
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " too small and had no way to carry my phone  so th"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " same color. But, I have to say, the smell is so b"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": ", I think the product is not suitable for the inte"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thought\n1. "
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": ".  I can't wear them at all without folding them d"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "Q222Y]] and [[ASIN:B07Q222X]] products"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " /><br />The bottles are not very sturdy. They are"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " hang it. It's so weak that it breaks after the fi"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": ", I have never had a break out. No complaints. No "
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " box. The product itself is decent. The lather is "
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " not aligned. It's not compatible. I'm not sure if"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " short burst of vibration. The vibration is not en"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": "’t recommend them for sleep, but they are great fo"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " on my face, but I don’t use it on my eyes. I thin"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": " making it easier to manage. I have been using it "
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " of minutes, and then I washed it off. I did not f"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " as the one in the picture. The razor is cheap, an"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " to make them comfortable. I have to say, I'm not "
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " soft, but the fit is good. The cotton is not soft"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " it. It's too loud. The noise is so loud that I ha"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " The product is not worth the effort to get it out"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": ". I'm not sure if it's the camera or the blink sys"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": ". I have diabetes and the loose ankle area is perf"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " still don't like it. I'm going to return it.\n}\n\n#"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " is too high for the quality. I don't think I'll b"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 2,
+      "correct": false,
+      "raw": " used it for 2 weeks and it's still working. But t"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": " well for my purpose.<br />2. the cable is very ch"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " The main thing is that the main body is very well"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": ", the product is not worth the money. I would not "
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "20.7mm lens, etc). The camera is solid, well built"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": ". The only issue is that the bottom is too short. "
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": ", 2023) and it's still working great.  I've used i"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": ". It's not very responsive, but it's not the end o"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": "br /><br />I have to say, I am very impressed with"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": ". BUT I STILL LOVE IT. . . . . . . . . . . . . ."
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": ", but the fit was terrible. <br />The button was b"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " not that I don't like the exfoliating or moisturi"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " tear.  I'm not sure if I can do that.  I'm not su"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": ", I would have returned it. But I have to say, it'"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " I have not had any issues with it. It is very gen"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": " $120, it's not worth it. I don't recommend it. I "
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " on the entire nail, including the cuticle area. I"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": ". One is not the flavor advertised; I also only li"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " long enough to reach the big toe. The other two a"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " I ended up with black eyes underneath. I think th"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " are gone, and she's been using it for three weeks"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": "'T fray. i'm not sure if that's a feature or a bug"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": "'s just not for us. 3 stars because it's not a bad"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": ".00 for 12, I think it's worth it. I would buy it "
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": "* The keyboard is a bit too big for my laptop<brbr"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " mouse. It is very awkward to use. The handle is t"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " the suds. I have used them for about a hand full "
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " I'm not sure if I should be grateful or not.  I'm"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " is not stretchy enough.  I would not recommend th"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": ". But the kit is still a waste of money. I wouldn'"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " would recommend them to others. I would recommend"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": "'s worth, I'm not going to buy another one. I'm no"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " is much better. I would not recommend this one. I"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": ". It's very stylish and looks great on my desk. I "
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " is not attached to the main body. The nose trimme"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " shampoo I have used before. I would like more fra"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " is a nice touch. I'm not sure if I'll keep it or "
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " be used in the shower. He has not used it in the "
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " I might have liked them.  But I have long hair an"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " which is a big plus for me. I have used it for ov"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " good staple.  I would recommend it to others.\n}\n<"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": " not. So I'm giving it 2 stars because I like the "
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " doesn't fit properly.  The crown is too short, so"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " I'm not sure if I'll be able to find one that's a"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": "&#34; and they said it was a problem with the prin"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " bath. It was lightly fragrant, but the scent was "
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " with other products.  I did not have any allergic"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " not a tech person, and I have no idea how to use "
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " it. But I think the size is correct for me. I thi"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": " go. I have used it for 2 years and it still works"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": " are 100% useless. They are so soft that they are "
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " and essential oils. The color is very bright and "
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": ".\n<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>th"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " fit work. I'm not sure if I'll be able to get it "
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " cover for drying.  I would have given it 5 stars "
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": ".\n<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>th"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " I think they are a good buy. I would recommend th"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " />The color is very dark. It is very hard to see "
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": "4D.  I think this bra is too small for me.  I thin"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thought\n1. "
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " the comb. The brush is not great. The brush is no"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": "} brand. But I am not sure. I am not sure if the i"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": ". I'm not sure how well it works yet but I'm not s"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": ", it's not worth it.  I would not recommend this t"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " />Cons:<br />-The scroll wheel is not trackable, "
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " It is very long-lasting. The color is very dark, "
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " I can use them for different hair types. The radi"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": "-38, but the bottom is way too small.  I'm 5'8\""
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " it would tear. I would not recommend this shirt t"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " rod. It's very easy to assemble. The brush is ver"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " the back.  I think the material is very soft and "
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": "  I like the colors.  I like the colors.  I like t"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " contrast to the rest of my legs. I was very disap"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " a medium, but I got two large. The handles are gr"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": ".  I'm not going to buy it again.  I'm not going t"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " way and I can see the value. I have been using it"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " and pulls and leaves a mess. I can't wear it agai"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " I still get some pain.  But I still love it.  It'"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": " I'm giving it 4 stars.\n}\n\n## Analysis Process (RE"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " transfer. It's a great color. 5 stars.\n}\n\n## Anal"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": "; ones.  I think the color is better than the othe"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " want a comfortable pair of sandals, this is not t"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " It's a good cover.  I just want to make sure I do"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " stars. But I don't like the flavor, so I'm giving"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " and I have not experienced any irritation or alle"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": ").<br /><br />The product is not suitable for me, "
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thought\n1. "
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " the laces.  The shoes are blue.  The color is wro"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " to open it for a few days. I would have to open i"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": ": the disc tray is not retractable.  This is a maj"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " odd. I think the fit is okay but the noise is a b"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " that was a big deal, but it's a big deal.  I'm no"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " more detail. The size is smaller than I have, bes"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": ", I would have bought more. I would recommend it t"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": ". I felt like I was wearing a hand warmer for the "
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": ", I would have given it 5 stars. I would have give"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": " to 500 degrees. The temperature dial is not very "
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " as easy to hold. I would recommend this to anyone"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": "'t buy them again.  I would not recommend them.\n}\n"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " it lasts for hours. Third, the color is full cove"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " have gotten five stars. But it's not. The fit is "
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": "br />I love the jar. It's very pretty and I have a"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " out.  He also said that the handle is very heavy "
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " the pencil is not sharp. I used it once, and now "
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " but I think it's worth it.  I would buy it again."
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": "% AHA, and this is more of a cleanser. So I think "
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": " down the fragrance).\"\n2\n## Analysis Process (REQU"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 2,
+      "correct": false,
+      "raw": ". But they are way too big. I thought they'd be mo"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " end of the tube. It is a bit of a nuisance.  I wo"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": " product to anyone who wants a long lasting matte "
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " THIS IS THE FIRST TIME I HAVE HAD A PROBLEM WITH "
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " aging of the skin.  I did not notice it to \" mini"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " make a nice decoration. But the tops don't work. "
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " bottom. The bench is slippery, and it smells. The"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " it was too tight to even put on. I think the sizi"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "1/2 inches wide.  The front closure version is 2 1"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " a protective case<br />The case is not included<b"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": " hours, it's gone. I have to reapply it every 2 ho"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": ", the product is very good. However, the color iss"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " you want a highlighter, you might want to look el"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " be called something else.  I'm not sure if I'll b"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "12, it's a great value. I'm very happy with it.\n}\n"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " However, the gel texture is not my preference. I "
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " to work.  So I'm not sure if this is a problem wi"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " I would say that this is a good product. I would "
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " say that I'm not a fan of the fragrance, but I th"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": "'t see the light well, but on the other hand, the "
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "\n\nThe review is 5 stars.\n</think>\n\n</think>\n\n{\"sen"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": ". It's like pouring water into a bottle. It's not "
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " the product is what I was looking for and I'm ver"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": ". I have used it for 2 years and it's still great."
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " eye makeup remover before I go to sleep. But, I s"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " scent, but it's not bad. The cream is not a barri"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " can't even smell it.  It's like a dead fish.  I c"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": ", I do feel like it is very light and breathable. "
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " IS NOT AVAILABLE. I'M SAD. I'LL NEVER BUY FROM AM"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " I think the scent is too strong for my taste. I w"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "\n\nThe review is 200 words. The rating is 2.5 stars"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": "'s not very comfortable. But I like the styles. I "
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " bomb is enough for a foot bath.  I have used them"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "as in, every day) has made my hands look and feel "
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " same experience. I was very excited to try it out"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "0 cheaper. I have used this for 2 weeks and I have"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " don’t mind the corners.  I think the corners are "
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " great. I have no complaints. I have no complaints"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " safe.  I will not buy again.  I will not recommen"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " recommend this to anyone.  I would buy them again"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " open the wallet. The design is very simple, but I"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " are not the same as the ones in the photos. The p"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": " my face. I have to use a lower SPF (25) on my fac"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": " of use out of it.  I have used it for 2 weeks and"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " help with the pandemic. I would recommend this to"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": ". I had to wash my hair all over again to remove t"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " them this way, then great, but I don't. I think t"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " want to lose that. So I’m not sure if this will w"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": ". I would buy it again.\n}\n\n## Analysis Process (RE"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": ", but overpowering scent. But I still love the Gou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "Quantity: 1\nRating: 2 stars\n</think>\n\n</think>\n\n{\""
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " you get. The style is different from what you ord"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": ", and I am very happy. I am very happy. I am very "
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " a few uses get stuck in my hair and I have to pul"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " ventilated area. I would recommend this to anyone"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " my hair soft, and itchy. <br />I'm not sure if it"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": " for all skin types. I have used it for 2 months a"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " /><br />The clips are very large and the color op"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " use the file, but that's not the clippers' fault."
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " but I don't know enough about the product to judg"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " the ones I ordered for work. The ones that showed"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " have to take it back.  I can't believe I paid thi"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": "br />CONS:<br />Would not stay connected to either"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " I don't think so. I think it's just weird. I thin"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " for my mom and she loves it too. I'm really happy"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " problem is that the scent is very strong. I think"
+    },
+    {
+      "true": 0,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " not regret buying this product at all. I would de"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " that long is impressive. I hate the smell. I woul"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " the back was just long enough to reach my feet. T"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " so I don't think it's the case. I'm not sure if i"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": "'m not sure if it's a style issue or if it's just "
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " well with the black color of the top. The fit is "
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " the nozzle. This is a very minor issue, but it is"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": ". I'm not sure if it's a mistake or if it's just a"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": " have used this for 2 weeks and it has worked well"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": " don't like it. The bath puff is the best. I have "
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " thought, \"This is the solution!\" I have been usin"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " experience and opinion.  I don't have any interes"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " this. I have not used this product again. I have "
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " features than I need. I don't know what the point"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": ", sometimes it wouldn't.  The screen would be blac"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " not the case. The back is too short for my needs."
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": " asleep with them on. I've had them for over a 2 y"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " the past, but not a fan of these pants.\n}\n</think"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " women. I have used it on my daughter and she love"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "\n\nThe review is 100% positive. The reviewer is an "
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": "'t use it on your face. It's not for that. It's fo"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": ". I do not like that it does not show the Temperat"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " etc.  I think the new model is better.  I think t"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " the dryer. They came out good. I have worn them t"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": " normal, and medium hair<br />- 330 to 370 for coa"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": ". I have no idea what the actual product is. I hav"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " helps others.  I have no complaints about the pro"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": ". I think the product is just not right for me. I "
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " /><br />The cream is very light and has a very sm"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": "  I think the conditioner is better than the shamp"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " cheap camera. I have no idea how it works, but it"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": ".  It's more of a small container for things I nee"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " have reduced. I have also noticed that my skin is"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " no idea what the problem is, but I believe it's t"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " son is wearing them now, and they are still looki"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " try something else.  I'm not sure if it's the for"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": ". The bows are not suitable for use as hair clips."
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " 5 stars!\nTitle: Great for diminishing age spots!\n"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": "-shirt. I think the problem is that the sizing is "
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "20 minutes of waiting, I was able to get my hair d"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": " think it's a good idea. I think it't a good idea."
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " and the product was too thick to apply. I was so "
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "strongly recommend\n2.0\n3.0\n4.0\n5.0\n"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " I had to wait for the battery to die, then take i"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": -1,
+      "correct": false,
+      "raw": " it would spread easily. I was very happy with the"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": -1,
+      "correct": false,
+      "raw": " job well. I have used it for several months and i"
+    },
+    {
+      "true": 1,
+      "pred": -1,
+      "correct": false,
+      "raw": "'ve found that it works well for my camera lens wh"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    }
+  ]
+}

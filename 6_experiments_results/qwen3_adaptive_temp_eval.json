@@ -1,0 +1,5392 @@
+{
+  "accuracy": 80.71348940914159,
+  "total": 897,
+  "correct": 724,
+  "parse_errors": 0,
+  "speed": 2.636106762059808,
+  "infer_time": 340.2745339870453,
+  "results": [
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 2,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 2}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 1}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    },
+    {
+      "true": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "<think>\n\n</think>\n\n{\"sentiment\": 0}\n<|channel>thou"
+    }
+  ]
+}
