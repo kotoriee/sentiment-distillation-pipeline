@@ -8,10 +8,18 @@
 
 1. **数据预处理** - HuggingFace流式加载 + 文本清洗 + 质量检查
 2. **软标注系统** - DeepSeek API + Cherry Studio标注
-3. **LoRA微调** - 动态温度蒸馏 + 多模型支持（Qwen3/Gemma4）
+3. **LoRA微调** - 动态温度蒸馏 + 多模型支持（Qwen3/Gemma4）⭐
 4. **评估系统** - 多格式输出解析 + 指标计算
 5. **基线模型** - SVM/BERT/GSDMM对比实验 ⭐
 6. **实验结果** - 三路对比报告 + 动态温度实验 ⭐
+
+### 训练方法
+
+| 方法 | 特点 | 适用场景 |
+|------|------|----------|
+| **软标签蒸馏** | KL Divergence + SFT 混合损失 | 有软标签数据 |
+| **GRPO强化学习** | 奖励函数驱动的RL训练 | 需更精确控制 |
+| **答案优先格式** | `{"sentiment": X}` 先输出 | 生产环境极速推理 |
 
 ## 目录结构
 
@@ -32,12 +40,16 @@ sentiment-distillation-pipeline/
 ├── 3_lora_training/           # 模块3：LoRA微调
 │   ├── train_soft_label.py    # 软标签训练（动态温度）
 │   ├── train_qwen3.py         # Qwen3-4B训练
-│   ├── train_gemma4.py        # Gemma 4 E2B训练
-│   ├── preprocess_data.py     # 数据格式转换
+│   ├── train_qwen35_grpo_sentiment.py  # GRPO强化学习训练
+│   ├── convert_answer_first.py         # 数据格式转换
+│   ├── Qwen3_5_Answer_First_Colab.ipynb # 软标签蒸馏 Colab
+│   ├── Qwen3_5_GRPO_Sentiment_Colab.ipynb # GRPO Colab
+│   ├── COLAB_TRAINING_GUIDE.md          # Colab训练指南
 │   └── config/                # 训练配置
 │
 ├── 4_evaluation/              # 模块4：评估
 │   ├── eval_model.py          # 统一评估入口
+│   ├── eval_answer_first.py   # 答案优先格式评估
 │   ├── eval_batch.py          # 批量推理
 │   ├── metrics.py             # 指标计算
 │   └── visualize.py           # 结果可视化
@@ -46,7 +58,8 @@ sentiment-distillation-pipeline/
     ├── train.json             # 训练集 (7,172条)
     ├── val.json               # 验证集 (896条)
     ├── test.json              # 测试集 (897条)
-    ├── train_700.json         # 小批量测试集
+    ├── train_answer_first.json # 答案优先格式训练集
+    ├── test_answer_first.json  # 答案优先格式测试集
     └── conversations/         # conversations格式数据
 ```
 
@@ -120,6 +133,28 @@ python eval_model.py --model ../3_lora_training/models/qwen3-4b-rationale --data
 }
 ```
 
+### 答案优先格式 (train_answer_first.json) ⭐ 推荐
+
+输出先答案再推理，适合生产环境：
+
+```json
+{
+  "conversations": [
+    {"role": "system", "content": "..."},
+    {"role": "user", "content": "Review: ..."},
+    {"role": "assistant", "content": "{\"sentiment\": 2}\n<|channel>thought\n推理过程...<channel|>"}
+  ],
+  "text": "...",
+  "label": 2,
+  "soft_labels": [0.05, 0.1, 0.85]
+}
+```
+
+**优势**：
+- 推理速度：20秒 → **0.1秒**
+- max_tokens：512 → **20**
+- 截断不影响结果
+
 ### Conversations格式 (Gemma 4)
 
 ```json
@@ -179,11 +214,25 @@ curl -fsSL https://unsloth.ai/install.sh | sh
 
 ## Colab训练
 
-如果本地VRAM不足，可使用Colab：
+如果本地VRAM不足，可使用Colab免费T4 GPU训练：
 
-1. 上传 `data/train_700.json` 到Colab
-2. 运行 `notebooks/colab_training.ipynb`
-3. 下载训练好的LoRA adapter
+### 软标签蒸馏训练
+
+1. 上传 `Qwen3_5_Answer_First_Colab.ipynb` 到Colab
+2. 启用 T4 GPU
+3. 上传 `data/train_answer_first.json`
+4. 运行所有 cell（~2小时）
+5. 下载训练好的LoRA adapter
+
+### GRPO强化学习训练
+
+1. 上传 `Qwen3_5_GRPO_Sentiment_Colab.ipynb` 到Colab
+2. 启用 T4 GPU
+3. 上传 `data/train_answer_first.json`
+4. 运行所有 cell（~1小时，100步测试）
+5. 下载训练好的LoRA adapter
+
+详细指南见 `3_lora_training/COLAB_TRAINING_GUIDE.md`
 
 ## 项目来源
 
@@ -225,6 +274,10 @@ curl -fsSL https://unsloth.ai/install.sh | sh
 
 ## 下一步改进
 
+- [x] 实现答案优先格式训练（推理速度提升200倍）
+- [x] 添加 GRPO 强化学习训练方法
+- [x] 创建 Colab 训练 notebook（免费 T4 GPU）
 - [ ] 分析验证集-测试集差距根因
 - [ ] 改进中性类分类准确率
 - [ ] 统一评估脚本支持多种输出格式
+- [ ] Qwen3.5-4B 训练并对比 Qwen3-4B 结果
