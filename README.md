@@ -51,6 +51,7 @@ sentiment-distillation-pipeline/
 │   ├── eval_model.py          # 统一评估入口
 │   ├── eval_answer_first.py   # 答案优先格式评估
 │   ├── eval_batch.py          # 批量推理
+│   ├── Qwen3_5_Eval_Colab.ipynb # Qwen3.5 Colab评估 ⭐
 │   ├── metrics.py             # 指标计算
 │   └── visualize.py           # 结果可视化
 │
@@ -110,7 +111,19 @@ python eval_model.py --model ../3_lora_training/models/qwen3-4b-rationale --data
 | 模型 | 基座 | API | VRAM需求 |
 |-----|------|-----|---------|
 | Qwen3-4B | `Qwen/Qwen3-4B` | FastLanguageModel | ~5GB |
+| Qwen3.5-4B | `unsloth/Qwen3.5-4B` | FastLanguageModel | ~5GB |
 | Gemma 4 E2B | `unsloth/gemma-4-E2B-it` | FastModel | ~4GB |
+
+### ⚠️ Qwen3.5-4B 架构差异
+
+unsloth/Qwen3.5-4B 与 ModelScope Qwen/Qwen3.5-4B 有架构差异：
+
+| 来源 | 注意力模块 | LoRA目标 |
+|------|-----------|----------|
+| `unsloth/Qwen3.5-4B` | `self_attn` (q/k/v/o_proj) | ✅ 标准LoRA |
+| `Qwen/Qwen3.5-4B` (ModelScope) | `linear_attn` (in_proj_qkv) | ❌ key不匹配 |
+
+**解决方案**：使用 Colab 评估 notebook (`Qwen3_5_Eval_Colab.ipynb`)，确保与训练环境一致。
 
 ## 训练参数
 
@@ -277,7 +290,8 @@ curl -fsSL https://unsloth.ai/install.sh | sh
 - [x] 实现答案优先格式训练（推理速度提升200倍）
 - [x] 添加 GRPO 强化学习训练方法
 - [x] 创建 Colab 训练 notebook（免费 T4 GPU）
+- [x] Qwen3.5-4B 答案优先格式训练（Colab完成）
+- [ ] 使用 Colab 评估 notebook 评估 Qwen3.5-4B LoRA
 - [ ] 分析验证集-测试集差距根因
 - [ ] 改进中性类分类准确率
 - [ ] 统一评估脚本支持多种输出格式
-- [ ] Qwen3.5-4B 训练并对比 Qwen3-4B 结果
