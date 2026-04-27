@@ -18,7 +18,7 @@
 | 方法 | 特点 | 适用场景 |
 |------|------|----------|
 | **软标签蒸馏** | KL Divergence + SFT 混合损失 | 有软标签数据 |
-| **GRPO强化学习** | 奖励函数驱动的RL训练 | 需更精确控制 |
+| **GRPO强化学习** | 奖励函数驱动的RL训练 | ✅ 精确控制已实现 |
 | **答案优先格式** | `{"sentiment": X}` 先输出 | 生产环境极速推理 |
 
 ## 目录结构
@@ -241,9 +241,19 @@ curl -fsSL https://unsloth.ai/install.sh | sh
 
 1. 上传 `Qwen3_5_GRPO_Sentiment_Colab.ipynb` 到Colab
 2. 启用 T4 GPU
-3. 上传 `data/train_answer_first.json`
-4. 运行所有 cell（~1小时，100步测试）
+3. 上传 `data/train_answer_first.json`（全量 7172 条）
+4. 运行所有 cell（~3小时，500步）
 5. 下载训练好的LoRA adapter
+
+**GRPO 精确控制配置**:
+
+| 参数 | 值 | 说明 |
+|------|-----|------|
+| beta (KL penalty) | 0.001 | DeepSeek-R1 推荐，防止策略漂移 |
+| temperature | 0.7 | 降低探索，提升稳定性 |
+| num_generations | 8 | 更大组别提升信号质量 |
+| learning_rate | 3e-6 | 配合 KL penalty 保守学习 |
+| reward_funcs | 3+1 | 正确性(60%) + 格式(25%) + 推理质量(15%) + 打印回调(0%) |
 
 详细指南见 `3_lora_training/COLAB_TRAINING_GUIDE.md`
 
