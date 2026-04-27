@@ -1,0 +1,167 @@
+{
+  "metrics": {
+    "model": "models/qwen35-9b-answer-first",
+    "total_samples": 20,
+    "parse_failures": 0,
+    "valid_predictions": 20,
+    "correct": 19,
+    "accuracy": 0.95,
+    "f1_macro": 0.9501,
+    "f1_class_0": 0.9412,
+    "f1_class_1": 0.9091,
+    "f1_class_2": 1.0,
+    "classification_report": "              precision    recall  f1-score   support\n\n           0     0.8889    1.0000    0.9412         8\n           1     1.0000    0.8333    0.9091         6\n           2     1.0000    1.0000    1.0000         6\n\n    accuracy                         0.9500        20\n   macro avg     0.9630    0.9444    0.9501        20\nweighted avg     0.9556    0.9500    0.9492        20\n",
+    "confusion_matrix": [
+      [
+        8,
+        0,
+        0
+      ],
+      [
+        1,
+        5,
+        0
+      ],
+      [
+        0,
+        0,
+        6
+      ]
+    ],
+    "infer_time": 29.16,
+    "speed": 0.69,
+    "latency": {
+      "batch_size": 4,
+      "num_batches": 5,
+      "total_time_ms": 29161.01,
+      "total_time_min": 0.49,
+      "avg_batch_latency_ms": 5832.2,
+      "avg_sample_latency_ms": 1458.05,
+      "p50_batch_latency_ms": 3362.55,
+      "p95_batch_latency_ms": 13080.0,
+      "throughput_samples_per_sec": 0.69
+    }
+  },
+  "predictions": [
+    {
+      "index": 0,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\"sentiment\": 1}\n<|channel>thought\n1. Clues: '"
+    },
+    {
+      "index": 1,
+      "true": 2,
+      "pred": 2,
+      "raw": "{\"sentiment\": 2}\n<|channel>thought\n1. Clues: '"
+    },
+    {
+      "index": 2,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\"sentiment\": 0}\n<|channel>thought\n1. Clues: '"
+    },
+    {
+      "index": 3,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\"sentiment\": 0}\n<|channel>thought\n1. Clues: '"
+    },
+    {
+      "index": 4,
+      "true": 2,
+      "pred": 2,
+      "raw": "{\"sentiment\": 2}\n<|channel>thought\n1. Clues: '"
+    },
+    {
+      "index": 5,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\"sentiment\": 0}\n<|channel>thought\n1. Clues: '"
+    },
+    {
+      "index": 6,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\"sentiment\": 0}\n<|channel>thought\n1. Clues: '"
+    },
+    {
+      "index": 7,
+      "true": 2,
+      "pred": 2,
+      "raw": "{\"sentiment\": 2}\n<|channel>thought\n1. Clues: '"
+    },
+    {
+      "index": 8,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\"sentiment\": 0}\n<|channel>thought\n1. Clues: '"
+    },
+    {
+      "index": 9,
+      "true": 2,
+      "pred": 2,
+      "raw": "{\"sentiment\": 2}\n<|channel>thought\n1. Clues: '"
+    },
+    {
+      "index": 10,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\"sentiment\": 0}\n<|channel>thought\n1. Clues: '"
+    },
+    {
+      "index": 11,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\"sentiment\": 0}\n<|channel>thought\n1. Clues: '"
+    },
+    {
+      "index": 12,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\"sentiment\": 1}\n<|channel>thought\n1. Clues: '"
+    },
+    {
+      "index": 13,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\"sentiment\": 0}\n<|channel>thought\n1. Clues: '"
+    },
+    {
+      "index": 14,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\"sentiment\": 1}\n<|channel>thought\n1. Clues: '"
+    },
+    {
+      "index": 15,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\"sentiment\": 0}\n<|channel>thought\n1. Clues: '"
+    },
+    {
+      "index": 16,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\"sentiment\": 1}\n<|channel>thought\n1. Clues: '"
+    },
+    {
+      "index": 17,
+      "true": 2,
+      "pred": 2,
+      "raw": "{\"sentiment\": 2}\n<|channel>thought\n1. Clues: '"
+    },
+    {
+      "index": 18,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\"sentiment\": 1}\n<|channel>thought\n1. Clues: '"
+    },
+    {
+      "index": 19,
+      "true": 2,
+      "pred": 2,
+      "raw": "{\"sentiment\": 2}\n<|channel>thought\n1. Clues: '"
+    }
+  ]
+}

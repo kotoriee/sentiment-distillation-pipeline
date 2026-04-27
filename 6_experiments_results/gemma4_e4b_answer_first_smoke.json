@@ -1,0 +1,167 @@
+{
+  "metrics": {
+    "model": "../models/gemma4-e4b-answer-first",
+    "total_samples": 20,
+    "parse_failures": 0,
+    "valid_predictions": 20,
+    "correct": 6,
+    "accuracy": 0.3,
+    "f1_macro": 0.1538,
+    "f1_class_0": 0.0,
+    "f1_class_1": 0.4615,
+    "f1_class_2": 0.0,
+    "classification_report": "              precision    recall  f1-score   support\n\n           0     0.0000    0.0000    0.0000         8\n           1     0.3000    1.0000    0.4615         6\n           2     0.0000    0.0000    0.0000         6\n\n    accuracy                         0.3000        20\n   macro avg     0.1000    0.3333    0.1538        20\nweighted avg     0.0900    0.3000    0.1385        20\n",
+    "confusion_matrix": [
+      [
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        6,
+        0
+      ],
+      [
+        0,
+        6,
+        0
+      ]
+    ],
+    "infer_time": 26.08,
+    "speed": 0.77,
+    "latency": {
+      "batch_size": 4,
+      "num_batches": 5,
+      "total_time_ms": 26082.48,
+      "total_time_min": 0.43,
+      "avg_batch_latency_ms": 5216.5,
+      "avg_sample_latency_ms": 1304.12,
+      "p50_batch_latency_ms": 3983.5,
+      "p95_batch_latency_ms": 8347.8,
+      "throughput_samples_per_sec": 0.77
+    }
+  },
+  "predictions": [
+    {
+      "index": 0,
+      "true": 1,
+      "pred": 1,
+      "raw": "thought\nHere's a thinking process to arrive at the desired JSON output:\n\n1."
+    },
+    {
+      "index": 1,
+      "true": 2,
+      "pred": 1,
+      "raw": "thought\nHere's a thinking process to arrive at the desired JSON output:\n\n1."
+    },
+    {
+      "index": 2,
+      "true": 0,
+      "pred": 1,
+      "raw": "thought\nHere's a thinking process to arrive at the desired JSON output:\n\n1."
+    },
+    {
+      "index": 3,
+      "true": 0,
+      "pred": 1,
+      "raw": "thought\nHere's a thinking process to arrive at the desired JSON output:\n\n1."
+    },
+    {
+      "index": 4,
+      "true": 2,
+      "pred": 1,
+      "raw": "thought\nHere's a thinking process to arrive at the desired JSON output:\n\n1."
+    },
+    {
+      "index": 5,
+      "true": 0,
+      "pred": 1,
+      "raw": "thought\nHere's a thinking process to arrive at the desired JSON output:\n\n1."
+    },
+    {
+      "index": 6,
+      "true": 0,
+      "pred": 1,
+      "raw": "thought\nHere's a thinking process to arrive at the desired JSON output:\n\n1."
+    },
+    {
+      "index": 7,
+      "true": 2,
+      "pred": 1,
+      "raw": "thought\nHere's a thinking process to arrive at the desired JSON output:\n\n1."
+    },
+    {
+      "index": 8,
+      "true": 0,
+      "pred": 1,
+      "raw": "thought\nHere's a thinking process to arrive at the desired JSON output:\n\n1."
+    },
+    {
+      "index": 9,
+      "true": 2,
+      "pred": 1,
+      "raw": "thought\nHere's a thinking process to arrive at the desired JSON output:\n\n1."
+    },
+    {
+      "index": 10,
+      "true": 0,
+      "pred": 1,
+      "raw": "thought\nHere's a thinking process to arrive at the desired JSON output:\n\n1."
+    },
+    {
+      "index": 11,
+      "true": 0,
+      "pred": 1,
+      "raw": "thought\nHere's a thinking process to arrive at the desired JSON output:\n\n1."
+    },
+    {
+      "index": 12,
+      "true": 1,
+      "pred": 1,
+      "raw": "thought\nThinking Process:\n\n1.  **Analyze the Request:** The goal is to perform"
+    },
+    {
+      "index": 13,
+      "true": 0,
+      "pred": 1,
+      "raw": "thought\nHere's a thinking process to arrive at the desired JSON output:\n\n1."
+    },
+    {
+      "index": 14,
+      "true": 1,
+      "pred": 1,
+      "raw": "thought\nHere's a thinking process to arrive at the desired JSON output:\n\n1."
+    },
+    {
+      "index": 15,
+      "true": 1,
+      "pred": 1,
+      "raw": "thought\nHere's a thinking process to arrive at the desired JSON output:\n\n1."
+    },
+    {
+      "index": 16,
+      "true": 1,
+      "pred": 1,
+      "raw": "thought\nHere's a thinking process to arrive at the desired JSON output:\n\n1."
+    },
+    {
+      "index": 17,
+      "true": 2,
+      "pred": 1,
+      "raw": "thought\nHere's a thinking process to arrive at the desired JSON output:\n\n1."
+    },
+    {
+      "index": 18,
+      "true": 1,
+      "pred": 1,
+      "raw": "thought\nHere's a thinking process to arrive at the desired JSON output:\n\n1."
+    },
+    {
+      "index": 19,
+      "true": 2,
+      "pred": 1,
+      "raw": "thought\nHere's a thinking process to arrive at the desired JSON output:\n\n1."
+    }
+  ]
+}

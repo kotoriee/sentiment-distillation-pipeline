@@ -1,0 +1,30 @@
+{
+  "deepseek-ai/deepseek-v4-flash": {
+    "model": "deepseek-ai/deepseek-v4-flash",
+    "total": 897,
+    "valid": 723,
+    "errors": 174,
+    "accuracy": 0.7704,
+    "f1_macro": 0.7617,
+    "f1_class_0": 0.7897,
+    "f1_class_1": 0.6085,
+    "f1_class_2": 0.887,
+    "confusion_matrix": [
+      [
+        231,
+        6,
+        2
+      ],
+      [
+        108,
+        122,
+        14
+      ],
+      [
+        7,
+        29,
+        204
+      ]
+    ]
+  }
+}
