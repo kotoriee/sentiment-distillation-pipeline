@@ -13,38 +13,48 @@ Qwen3.5-4B GRPO 情感分析训练 - 精确控制版本
 4. 训练后自动评估
 """
 
-# ============== 安装依赖（Colab 第一个 cell）=============
-INSTALL_CMD = '''
-%%capture
 import os
-os.environ["UNSLOTH_VLLM_STANDBY"] = "1"
-if "COLAB_" not in "".join(os.environ.keys()):
-    !pip install unsloth vllm
-else:
-    !pip install --upgrade -qqq uv
-    try: import numpy, PIL; _numpy = f'numpy=={numpy.__version__}'; _pil = f'pillow=={PIL.__version__}'
-    except: _numpy = "numpy"; _pil = "pillow"
-    try: import subprocess; is_t4 = "Tesla T4" in str(subprocess.check_output(["nvidia-smi"]))
-    except: is_t4 = False
-    _vllm, _triton = ('vllm==0.9.2', 'triton==3.2.0') if is_t4 else ('vllm==0.15.1', 'triton')
-    !uv pip install -qqq --upgrade {_vllm} {_numpy} {_pil} torchvision bitsandbytes xformers unsloth
-    !uv pip install -qqq {_triton}
-!uv pip install transformers==4.56.2
-!uv pip install --no-deps trl==0.22.2
-'''
+os.environ.setdefault("UNSLOTH_VLLM_STANDBY", "1")
 
-# ============== 加载模型 ==============
+import json
+import re
+import argparse
+import numpy as np
+from datasets import Dataset
+
+# ============== CLI 参数 ==============
+parser = argparse.ArgumentParser(description="Qwen3.5-4B GRPO 情感分析训练")
+parser.add_argument("--data", default="../data/train_answer_first.json", help="训练数据路径")
+parser.add_argument("--test-data", default="../data/test_answer_first.json", help="测试数据路径（评估用）")
+parser.add_argument("--model-name", default="unsloth/Qwen3.5-4B", help="基座模型")
+parser.add_argument("--max-steps", type=int, default=500)
+parser.add_argument("--output-dir", default="outputs_sentiment_grpo")
+parser.add_argument("--lora-rank", type=int, default=32)
+parser.add_argument("--test", action="store_true", help="快速测试模式（100步+1000条数据）")
+args = parser.parse_args()
+
+if args.test:
+    args.max_steps = 100
+
+# ============== 数据加载 ==============
+with open(args.data, 'r', encoding='utf-8') as f:
+    train_data = json.load(f)
+
+if args.test:
+    train_data = train_data[:1000]
+
+print(f"训练数据: {len(train_data)} 条")
 from unsloth import FastLanguageModel
 import torch
 
 max_seq_length = 512  # 情感分析不需要太长
-lora_rank = 32
+lora_rank = args.lora_rank
 
 model, tokenizer = FastLanguageModel.from_pretrained(
-    model_name = "unsloth/Qwen3.5-4B",
+    model_name = args.model_name,
     max_seq_length = max_seq_length,
     load_in_4bit = False,  # 16-bit LoRA
-    fast_inference = True,
+    fast_inference = False,  # Qwen3.5 fast_inference not supported
     max_lora_rank = lora_rank,
     gpu_memory_utilization = 0.9,
 )
@@ -97,23 +107,9 @@ chat_template = \
     "{% if add_generation_prompt %}{{ reasoning_start }}"\
     "{% endif %}"
 
-tokenizer.chat_template = chat_template.replace("system_prompt", system_prompt)
+tokenizer.chat_template = chat_template.replace("__SYS_PROMPT__", system_prompt)
 
-# ============== 数据加载与格式化 ==============
-
-import json
-import re
-from datasets import Dataset
-
-# 上传数据（Colab）
-from google.colab import files
-uploaded = files.upload()
-
-# 加载训练数据
-with open('train_answer_first.json', 'r', encoding='utf-8') as f:
-    train_data = json.load(f)
-
-print(f"训练数据: {len(train_data)} 条")
+# ============== 数据格式化 ==============
 
 def format_sentiment_data(item):
     """将答案优先格式转换为 GRPO prompt"""
@@ -262,7 +258,6 @@ from trl import GRPOConfig, GRPOTrainer
 training_args = GRPOConfig(
     # KL penalty - 防止策略漂移
     beta = 0.001,
-    use_bias_correction_kl = True,
     # 生成配置
     temperature = 0.7,
     num_generations = 8,
@@ -277,14 +272,14 @@ training_args = GRPOConfig(
     per_device_train_batch_size = 1,
     gradient_accumulation_steps = 1,
     # 步数
-    max_steps = 500,
+    max_steps = args.max_steps,
     save_steps = 50,
     max_prompt_length = max_prompt_length,
     max_completion_length = max_completion_length,
     # 日志
     logging_steps = 5,
     report_to = "none",
-    output_dir = "outputs_sentiment_grpo",
+    output_dir = args.output_dir,
 )
 
 trainer = GRPOTrainer(
@@ -307,12 +302,7 @@ trainer.train()
 
 # ============== 保存模型 ==============
 
-model.save_lora("sentiment_grpo_lora")
-print("\nLoRA 保存到: sentiment_grpo_lora")
-
-# 打包下载
-import shutil
-shutil.make_archive('sentiment_grpo_lora', 'zip', 'sentiment_grpo_lora')
-files.download('sentiment_grpo_lora.zip')
-
-print("\n训练完成！模型已下载。")
+model.save_pretrained(args.output_dir)
+tokenizer.save_pretrained(args.output_dir)
+print(f"\nLoRA 保存到: {args.output_dir}")
+print("\n训练完成！")
