@@ -1,0 +1,158 @@
+{
+  "metrics": {
+    "model": "/mnt/d/kotoriee/llm/sentiment-distillation-pipeline/3_lora_training/models/qwen35-9b-answer-first",
+    "base_model": "/mnt/d/kotoriee/llm/sentiment-distillation-pipeline/models/Qwen3.5-9B-ms/Qwen/Qwen3___5-9B",
+    "sft_lora": "/mnt/d/kotoriee/llm/sentiment-distillation-pipeline/3_lora_training/models/qwen35-9b-answer-first",
+    "total_samples": 20,
+    "parse_failures": 0,
+    "valid_predictions": 20,
+    "correct": 6,
+    "accuracy": 0.3,
+    "f1_macro": 0.1538,
+    "f1_class_0": 0.0,
+    "f1_class_1": 0.4615,
+    "f1_class_2": 0.0,
+    "classification_report": "              precision    recall  f1-score   support\n\n           0     0.0000    0.0000    0.0000         8\n           1     0.3000    1.0000    0.4615         6\n           2     0.0000    0.0000    0.0000         6\n\n    accuracy                         0.3000        20\n   macro avg     0.1000    0.3333    0.1538        20\nweighted avg     0.0900    0.3000    0.1385        20\n",
+    "confusion_matrix": [
+      [
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        6,
+        0
+      ],
+      [
+        0,
+        6,
+        0
+      ]
+    ],
+    "infer_time": 7.62,
+    "speed": 2.62
+  },
+  "predictions": [
+    {
+      "index": 0,
+      "true": 1,
+      "pred": 1,
+      "raw": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Professional e-commerce review sentiment analysis expert.\n    *   Task"
+    },
+    {
+      "index": 1,
+      "true": 2,
+      "pred": 1,
+      "raw": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Professional e-commerce review sentiment analysis expert.\n    *   Task"
+    },
+    {
+      "index": 2,
+      "true": 0,
+      "pred": 1,
+      "raw": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Professional e-commerce review sentiment analysis expert.\n    *   Task"
+    },
+    {
+      "index": 3,
+      "true": 0,
+      "pred": 1,
+      "raw": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Professional e-commerce review sentiment analysis expert.\n    *   Task"
+    },
+    {
+      "index": 4,
+      "true": 2,
+      "pred": 1,
+      "raw": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Professional e-commerce review sentiment analysis expert.\n    *   Task"
+    },
+    {
+      "index": 5,
+      "true": 0,
+      "pred": 1,
+      "raw": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Professional e-commerce review sentiment analysis expert.\n    *   Task"
+    },
+    {
+      "index": 6,
+      "true": 0,
+      "pred": 1,
+      "raw": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Professional e-commerce review sentiment analysis expert.\n    *   Task"
+    },
+    {
+      "index": 7,
+      "true": 2,
+      "pred": 1,
+      "raw": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Professional e-commerce review sentiment analysis expert.\n    *   Task"
+    },
+    {
+      "index": 8,
+      "true": 0,
+      "pred": 1,
+      "raw": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Professional e-commerce review sentiment analysis expert.\n    *   Task"
+    },
+    {
+      "index": 9,
+      "true": 2,
+      "pred": 1,
+      "raw": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Professional e-commerce review sentiment analysis expert.\n    *   Task"
+    },
+    {
+      "index": 10,
+      "true": 0,
+      "pred": 1,
+      "raw": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Professional e-commerce review sentiment analysis expert.\n    *   Task"
+    },
+    {
+      "index": 11,
+      "true": 0,
+      "pred": 1,
+      "raw": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Professional e-commerce review sentiment analysis expert.\n    *   Task"
+    },
+    {
+      "index": 12,
+      "true": 1,
+      "pred": 1,
+      "raw": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Professional e-commerce review sentiment analysis expert.\n    *   Task"
+    },
+    {
+      "index": 13,
+      "true": 0,
+      "pred": 1,
+      "raw": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Professional e-commerce review sentiment analysis expert.\n    *   Task"
+    },
+    {
+      "index": 14,
+      "true": 1,
+      "pred": 1,
+      "raw": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Professional e-commerce review sentiment analysis expert.\n    *   Task"
+    },
+    {
+      "index": 15,
+      "true": 1,
+      "pred": 1,
+      "raw": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Professional e-commerce review sentiment analysis expert.\n    *   Task"
+    },
+    {
+      "index": 16,
+      "true": 1,
+      "pred": 1,
+      "raw": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Professional e-commerce review sentiment analysis expert.\n    *   Task"
+    },
+    {
+      "index": 17,
+      "true": 2,
+      "pred": 1,
+      "raw": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Professional e-commerce review sentiment analysis expert.\n    *   Task"
+    },
+    {
+      "index": 18,
+      "true": 1,
+      "pred": 1,
+      "raw": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Professional e-commerce review sentiment analysis expert.\n    *   Task"
+    },
+    {
+      "index": 19,
+      "true": 2,
+      "pred": 1,
+      "raw": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Professional e-commerce review sentiment analysis expert.\n    *   Task"
+    }
+  ]
+}

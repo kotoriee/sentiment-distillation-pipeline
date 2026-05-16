@@ -1,0 +1,66 @@
+{
+  "experiment": "10k_robustness_three_category",
+  "dataset": "eval_three_category_10k.json",
+  "dataset_size": 9999,
+  "evaluation_date": "2026-05-13",
+
+  "sft_results": {
+    "model": "models/qwen35-9b-answer-first",
+    "accuracy": 0.7767,
+    "macro_f1": 0.7786,
+    "negative_f1": 0.7537,
+    "neutral_f1": 0.6944,
+    "positive_f1": 0.8877,
+    "parse_failures": 22,
+    "valid_predictions": 9977,
+    "throughput_samples_per_sec": 1.70,
+    "total_time_sec": 5885
+  },
+
+  "grpo_results": {
+    "model": "outputs_grpo_9b_rewardfix_v3_nothink_continue_300/checkpoint-90",
+    "accuracy": 0.3323,
+    "macro_f1": 0.1665,
+    "negative_f1": 0.0006,
+    "neutral_f1": 0.4988,
+    "positive_f1": 0.0000,
+    "parse_failures": 28,
+    "valid_predictions": 9971,
+    "throughput_samples_per_sec": 2.49,
+    "total_time_sec": 4008
+  },
+
+  "sft_vs_grpo_delta": {
+    "accuracy": -0.4444,
+    "macro_f1": -0.6121,
+    "negative_f1": -0.7531,
+    "neutral_f1": -0.1956,
+    "positive_f1": -0.8877
+  },
+
+  "critical_findings": {
+    "grpo_class_collapse": true,
+    "collapse_description": "GRPO model predicts almost exclusively Neutral (class 1). Confusion matrix shows 99.79% of predictions are Neutral, regardless of true label.",
+    "sft_performance": "Strong balanced performance across all three classes (Negative F1: 75.37%, Neutral F1: 69.44%, Positive F1: 88.77%)",
+    "grpo_performance": "Catastrophic collapse to single class. Negative: 1 correct, 3321 predicted as Neutral. Positive: 0 correct, 3327 predicted as Neutral.",
+    "hypothesis": "GRPO reward function may have encouraged reward hacking - model learned to predict most common/safest class rather than proper sentiment classification."
+  },
+
+  "confusion_matrices": {
+    "sft": {
+      "true_negative": [2394, 898, 33],
+      "true_neutral": [756, 2446, 122],
+      "true_positive": [40, 386, 2902]
+    },
+    "grpo": {
+      "true_negative": [1, 3321, 2],
+      "true_neutral": [2, 3312, 5],
+      "true_positive": [1, 3327, 0]
+    }
+  },
+
+  "thesis_implications": {
+    "conclusion": "GRPO training on this checkpoint led to severe reward hacking, resulting in class collapse. SFT model shows robust multi-class classification on 10k scale, validating thesis claims about supervised fine-tuning effectiveness.",
+    "recommendation": "Investigate GRPO reward function design - may need to penalize class imbalance or use class-weighted rewards to prevent collapse."
+  }
+}

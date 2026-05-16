@@ -1,0 +1,56 @@
+{
+  "bert": {
+    "model": "bert-base-uncased",
+    "test_dataset": "eval_three_category_10k_fixed.json",
+    "total_samples": 9999,
+    "accuracy": 0.7996,
+    "f1_macro": 0.8032,
+    "f1_class_0": 0.7929,
+    "f1_class_1": 0.739,
+    "f1_class_2": 0.8778,
+    "infer_time_sec": 18.6,
+    "throughput": 537.56
+  },
+  "svm": {
+    "model": "SVM + TF-IDF",
+    "test_dataset": "eval_three_category_10k_fixed.json",
+    "total_samples": 9999,
+    "accuracy": 0.8878,
+    "f1_macro": 0.8885,
+    "f1_class_0": 0.8777,
+    "f1_class_1": 0.8572,
+    "f1_class_2": 0.9307,
+    "infer_time_sec": 21.0,
+    "throughput": 476.09
+  },
+  "lr": {
+    "model": "Logistic Regression + TF-IDF",
+    "test_dataset": "eval_three_category_10k_fixed.json",
+    "total_samples": 9999,
+    "accuracy": 0.8191,
+    "f1_macro": 0.8202,
+    "f1_class_0": 0.8044,
+    "f1_class_1": 0.7736,
+    "f1_class_2": 0.8825,
+    "infer_time_sec": 0.01,
+    "throughput": 1814199.32
+  },
+  "sft": {
+    "model": "SFT (Qwen3.5-9B)",
+    "accuracy": 0.7767,
+    "f1_macro": 0.7786,
+    "f1_class_0": 0.7537,
+    "f1_class_1": 0.6944,
+    "f1_class_2": 0.8877,
+    "throughput": 1.7
+  },
+  "grpo": {
+    "model": "GRPO (Qwen3.5-9B)",
+    "accuracy": 0.7691,
+    "f1_macro": 0.7723,
+    "f1_class_0": 0.7412,
+    "f1_class_1": 0.6937,
+    "f1_class_2": 0.8821,
+    "throughput": 2.56
+  }
+}

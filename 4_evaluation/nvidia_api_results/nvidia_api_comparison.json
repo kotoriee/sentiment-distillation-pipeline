@@ -1,30 +1,30 @@
 {
-  "deepseek-ai/deepseek-v4-flash": {
-    "model": "deepseek-ai/deepseek-v4-flash",
-    "total": 897,
-    "valid": 723,
-    "errors": 174,
-    "accuracy": 0.7704,
-    "f1_macro": 0.7617,
-    "f1_class_0": 0.7897,
-    "f1_class_1": 0.6085,
-    "f1_class_2": 0.887,
+  "z-ai/glm-5.1": {
+    "accuracy": 0.7898,
+    "f1_macro": 0.79,
+    "f1_class_0": 0.8006,
+    "f1_class_1": 0.6901,
+    "f1_class_2": 0.8793,
     "confusion_matrix": [
       [
-        231,
-        6,
-        2
+        255,
+        32,
+        4
       ],
       [
-        108,
-        122,
+        86,
+        196,
         14
       ],
       [
-        7,
-        29,
-        204
+        5,
+        44,
+        244
       ]
-    ]
+    ],
+    "valid": 880,
+    "errors": 17,
+    "model": "z-ai/glm-5.1",
+    "total": 897
   }
 }

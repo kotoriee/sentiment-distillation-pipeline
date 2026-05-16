@@ -11,7 +11,7 @@ import torch
 from sklearn.metrics import accuracy_score, f1_score, classification_report, confusion_matrix
 from tqdm import tqdm
 
-from unsloth import FastModel
+from unsloth import FastLanguageModel
 
 def extract_sentiment(text: str) -> int:
     match = re.search(r'"sentiment":\s*([0-2])', text)
@@ -46,10 +46,12 @@ def main():
     # Load model with LoRA adapter
     print(f"Loading base model: {args.base_model}")
     print(f"Loading LoRA from: {args.checkpoint}")
-    model, tokenizer = FastModel.from_pretrained(
+    model, tokenizer = FastLanguageModel.from_pretrained(
         model_name=args.base_model,
         max_seq_length=args.max_seq_length,
-        load_in_4bit=True,
+        load_in_4bit=False,
+        fast_inference=False,
+        max_lora_rank=32,
         gpu_memory_utilization=0.9,
     )
     # Load LoRA weights from checkpoint
@@ -57,7 +59,7 @@ def main():
     model = PeftModel.from_pretrained(model, args.checkpoint)
     print("Model loaded.")
 
-    FastModel.for_inference(model)
+    FastLanguageModel.for_inference(model)
 
     # Prepare prompts
     prompts = []
@@ -66,7 +68,8 @@ def main():
         conv = item['conversations']
         prompt_conv = conv[:2]  # system + user
         prompt = tokenizer.apply_chat_template(
-            prompt_conv, tokenize=False, add_generation_prompt=True
+            prompt_conv, tokenize=False, add_generation_prompt=True,
+            enable_thinking=False  # CRITICAL: match training config
         )
         prompts.append(prompt)
         true_labels.append(item['label'])

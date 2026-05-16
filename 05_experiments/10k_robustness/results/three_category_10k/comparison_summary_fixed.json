@@ -1,0 +1,92 @@
+{
+  "experiment": "10k_robustness_three_category_fixed",
+  "dataset": "eval_three_category_10k_fixed.json",
+  "dataset_size": 9999,
+  "evaluation_date": "2026-05-13",
+  "prompt_format_fixed": true,
+
+  "sft_results": {
+    "model": "models/qwen35-9b-answer-first",
+    "accuracy": 0.7767,
+    "macro_f1": 0.7786,
+    "negative_f1": 0.7537,
+    "neutral_f1": 0.6944,
+    "positive_f1": 0.8877,
+    "parse_failures": 22,
+    "valid_predictions": 9977,
+    "throughput_samples_per_sec": 1.70,
+    "total_time_sec": 5885
+  },
+
+  "grpo_results": {
+    "model": "outputs_grpo_9b_rewardfix_v3_nothink_continue_300/checkpoint-90",
+    "accuracy": 0.3328,
+    "macro_f1": 0.1678,
+    "negative_f1": 0.0018,
+    "neutral_f1": 0.4991,
+    "positive_f1": 0.0024,
+    "parse_failures": 34,
+    "valid_predictions": 9965,
+    "throughput_samples_per_sec": 2.33,
+    "total_time_sec": 4286
+  },
+
+  "grpo_897_baseline": {
+    "model": "outputs_grpo_9b_rewardfix_v3_nothink_continue_300/checkpoint-90",
+    "dataset": "original 897 test set",
+    "accuracy": 0.8272,
+    "macro_f1": 0.8268,
+    "negative_f1": 0.8207,
+    "neutral_f1": 0.7457,
+    "positive_f1": 0.9140,
+    "note": "checkpoint-90 performs well on original 897 test set but catastrophically collapses on 10k"
+  },
+
+  "sft_vs_grpo_delta": {
+    "accuracy": -0.4439,
+    "macro_f1": -0.6108,
+    "negative_f1": -0.7519,
+    "neutral_f1": -0.1953,
+    "positive_f1": -0.8853
+  },
+
+  "critical_findings": {
+    "prompt_format_fix_failed": true,
+    "prompt_fix_result": "Adding 'Analysis Process' section to system prompt made almost NO difference (33.23% -> 33.28% accuracy)",
+    "dataset_dependent_collapse": true,
+    "collapse_description": "GRPO checkpoint-90 shows severe class collapse on 10k data (99.7% predictions as Neutral) but performs well on original 897 test set (82.72% accuracy)",
+    "confusion_matrix_10k": {
+      "true_negative": [3, 3320, 2],
+      "true_neutral": [2, 3309, 3],
+      "true_positive": [4, 3318, 4]
+    },
+    "confusion_matrix_897": {
+      "true_negative": [254, 43, 2],
+      "true_neutral": [61, 217, 21],
+      "true_positive": [5, 23, 271]
+    },
+    "root_cause_hypothesis": "GRPO model learned distribution-specific patterns from training data. The 10k dataset, despite being from same categories, has different review text patterns or sampling characteristics that trigger collapse behavior.",
+    "sft_robustness": "SFT model maintains consistent performance across both datasets (77.67% on 10k vs similar on 897), demonstrating better generalization"
+  },
+
+  "checkpoint_evolution": {
+    "checkpoint_30_897": {"accuracy": 0.8227, "macro_f1": 0.8226},
+    "checkpoint_60_897": {"accuracy": 0.8272, "macro_f1": 0.8268},
+    "checkpoint_90_897": {"accuracy": 0.8272, "macro_f1": 0.8268},
+    "checkpoint_90_10k": {"accuracy": 0.3328, "macro_f1": 0.1678},
+    "observation": "Performance improves slightly on 897 set through training, but collapses catastrophically on 10k set"
+  },
+
+  "thesis_implications": {
+    "conclusion": "GRPO training for this model resulted in distribution-specific learning that fails to generalize to larger-scale data from same categories. The model learned to exploit reward function in ways specific to training data characteristics.",
+    "key_lesson": "SFT demonstrates superior generalization robustness. GRPO requires careful reward function design to prevent class collapse on out-of-distribution samples.",
+    "recommendation": "For thesis: Use SFT model as primary approach. GRPO experiments should document this failure mode as a limitation and discuss reward function design considerations.",
+    "metrics_summary": {
+      "sft_10k_accuracy": "77.67% (robust)",
+      "grpo_897_accuracy": "82.72% (good on small dataset)",
+      "grpo_10k_accuracy": "33.28% (catastrophic collapse)",
+      "sft_generalization": "Proven robust",
+      "grpo_generalization": "Failed"
+    }
+  }
+}

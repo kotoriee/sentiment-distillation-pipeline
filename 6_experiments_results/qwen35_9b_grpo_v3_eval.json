@@ -1,0 +1,5429 @@
+{
+  "metrics": {
+    "model": "outputs_grpo_9b_from_sft_v3",
+    "total_samples": 897,
+    "parse_failures": 0,
+    "valid_predictions": 897,
+    "correct": 445,
+    "accuracy": 0.4961,
+    "f1_macro": 0.4117,
+    "f1_class_0": 0.7677,
+    "f1_class_1": 0.4219,
+    "f1_class_2": 0.0456,
+    "classification_report": "              precision    recall  f1-score   support\n\n           0     0.6571    0.9231    0.7677       299\n           1     0.3454    0.5418    0.4219       299\n           2     0.8750    0.0234    0.0456       299\n\n    accuracy                         0.4961       897\n   macro avg     0.6259    0.4961    0.4117       897\nweighted avg     0.6259    0.4961    0.4117       897\n",
+    "confusion_matrix": [
+      [
+        276,
+        23,
+        0
+      ],
+      [
+        136,
+        162,
+        1
+      ],
+      [
+        8,
+        284,
+        7
+      ]
+    ],
+    "infer_time": 555.57,
+    "speed": 1.61,
+    "latency": {
+      "batch_size": 8,
+      "num_batches": 113,
+      "total_time_ms": 555572.43,
+      "total_time_min": 9.26,
+      "avg_batch_latency_ms": 4916.57,
+      "avg_sample_latency_ms": 614.57,
+      "p50_batch_latency_ms": 4590.95,
+      "p95_batch_latency_ms": 4826.11,
+      "throughput_samples_per_sec": 1.61
+    }
+  },
+  "predictions": [
+    {
+      "index": 0,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 1,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 2,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 3,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 4,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 5,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 6,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 7,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 8,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 9,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review is overwhelmingly"
+    },
+    {
+      "index": 10,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 11,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains strong"
+    },
+    {
+      "index": 12,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 13,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 14,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains a"
+    },
+    {
+      "index": 15,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 16,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 17,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 18,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 19,
+      "true": 2,
+      "pred": 2,
+      "raw": "{\n    \"sentiment\": 2,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 20,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 21,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 22,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review explicitly assigns"
+    },
+    {
+      "index": 23,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 24,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 25,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 26,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 27,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 28,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 29,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 30,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 31,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 32,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review explicitly states"
+    },
+    {
+      "index": 33,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 34,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 35,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review explicitly states"
+    },
+    {
+      "index": 36,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 37,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 38,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 39,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 40,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 41,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 42,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 43,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 44,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 45,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains overwhelmingly"
+    },
+    {
+      "index": 46,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 47,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 48,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 49,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 50,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 51,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review presents a"
+    },
+    {
+      "index": 52,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 53,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review starts with"
+    },
+    {
+      "index": 54,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 55,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 56,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 57,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 58,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 59,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 60,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 61,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 62,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 63,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 64,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 65,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 66,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 67,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 68,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 69,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 70,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 71,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 72,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 73,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 74,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 75,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 76,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 77,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 78,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review contains overwhelmingly"
+    },
+    {
+      "index": 79,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 80,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 81,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains predominantly"
+    },
+    {
+      "index": 82,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 83,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 84,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 85,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 86,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 87,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 88,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 89,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 90,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 91,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.75,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 92,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 93,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 94,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 95,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 96,
+      "true": 2,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 97,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 98,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review is overwhelmingly"
+    },
+    {
+      "index": 99,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 100,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 101,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 102,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 103,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 104,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 105,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 106,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 107,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 108,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 109,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 110,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"Signal Detection: The"
+    },
+    {
+      "index": 111,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 112,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 113,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 114,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 115,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 116,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 117,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 118,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 119,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 120,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 121,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 122,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 123,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 124,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 125,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 126,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 127,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 128,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 129,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 130,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 131,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 132,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 133,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 134,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review contains extremely"
+    },
+    {
+      "index": 135,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 136,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 137,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 138,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 139,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 140,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 141,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 142,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 143,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.75,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 144,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 145,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 146,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 147,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 148,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 149,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 150,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 151,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 152,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 153,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 154,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 155,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 156,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 157,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 158,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 159,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 160,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 161,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 162,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 163,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 164,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 165,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 166,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 167,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.9,\n    \"rationale\": \"1. Signal Detection:"
+    },
+    {
+      "index": 168,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 169,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 170,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 171,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 172,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 173,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 174,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 175,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 176,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 177,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 178,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 179,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains overwhelmingly"
+    },
+    {
+      "index": 180,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review presents a"
+    },
+    {
+      "index": 181,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 182,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains a"
+    },
+    {
+      "index": 183,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 184,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 185,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 186,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 187,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 188,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 189,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 190,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review explicitly states"
+    },
+    {
+      "index": 191,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 192,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 193,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 194,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 195,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 196,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 197,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 198,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 199,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 200,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains overwhelmingly"
+    },
+    {
+      "index": 201,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 202,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 203,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 204,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 205,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 206,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 207,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review expresses strong"
+    },
+    {
+      "index": 208,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 209,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 210,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 211,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 212,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.92,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 213,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 214,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 215,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 216,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 217,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 218,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 219,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 220,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 221,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 222,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 223,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review is overwhelmingly"
+    },
+    {
+      "index": 224,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 225,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 226,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 227,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 228,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 229,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 230,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 231,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 232,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 233,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review explicitly states"
+    },
+    {
+      "index": 234,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 235,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review presents a"
+    },
+    {
+      "index": 236,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 237,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 238,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 239,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains a"
+    },
+    {
+      "index": 240,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review is overwhelmingly"
+    },
+    {
+      "index": 241,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 242,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 243,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 244,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 245,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"Signal Detection: The"
+    },
+    {
+      "index": 246,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review expresses strong"
+    },
+    {
+      "index": 247,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 248,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review is overwhelmingly"
+    },
+    {
+      "index": 249,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 250,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 251,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 252,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review is overwhelmingly"
+    },
+    {
+      "index": 253,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.92,\n    \"rationale\": \"The review expresses strong"
+    },
+    {
+      "index": 254,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 255,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 256,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 257,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review contains overwhelmingly"
+    },
+    {
+      "index": 258,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 259,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains strong"
+    },
+    {
+      "index": 260,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 261,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 262,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 263,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 264,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 265,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 266,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 267,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 268,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 269,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 270,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 271,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 272,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 273,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 274,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 275,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 276,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 277,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 278,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 279,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains a"
+    },
+    {
+      "index": 280,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 281,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 282,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 283,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 284,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 285,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.75,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 286,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 287,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review is overwhelmingly"
+    },
+    {
+      "index": 288,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 289,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 290,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 291,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.9,\n    \"rationale\": \"1. Signal Detection:"
+    },
+    {
+      "index": 292,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 293,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 294,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 295,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 296,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 297,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 298,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 299,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains strong"
+    },
+    {
+      "index": 300,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 301,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 302,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 303,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 304,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 305,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 306,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 307,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 308,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains a"
+    },
+    {
+      "index": 309,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 310,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 311,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 312,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 313,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 314,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 315,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 316,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 317,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 318,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 319,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review contains overwhelmingly"
+    },
+    {
+      "index": 320,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review begins by"
+    },
+    {
+      "index": 321,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 322,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 323,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 324,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 325,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 326,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 327,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 328,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 329,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 330,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 331,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 332,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 333,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 334,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 335,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 336,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 337,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 338,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 339,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 340,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review title '"
+    },
+    {
+      "index": 341,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 342,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.92,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 343,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review is overwhelmingly"
+    },
+    {
+      "index": 344,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 345,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 346,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 347,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 348,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 349,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 350,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 351,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 352,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review is overwhelmingly"
+    },
+    {
+      "index": 353,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 354,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 355,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review expresses a"
+    },
+    {
+      "index": 356,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 357,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 358,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 359,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 360,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 361,
+      "true": 2,
+      "pred": 2,
+      "raw": "{\n    \"sentiment\": 2,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 362,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 363,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 364,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review starts with"
+    },
+    {
+      "index": 365,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 366,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.75,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 367,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 368,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 369,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 370,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 371,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 372,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 373,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 374,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 375,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains predominantly"
+    },
+    {
+      "index": 376,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 377,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 378,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 379,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 380,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 381,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 382,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 383,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 384,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 385,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 386,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 387,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 388,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 389,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 390,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 391,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains overwhelmingly"
+    },
+    {
+      "index": 392,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review presents a"
+    },
+    {
+      "index": 393,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 394,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 395,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 396,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 397,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 398,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.92,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 399,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 400,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 401,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 402,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 403,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review explicitly assigns"
+    },
+    {
+      "index": 404,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 405,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 406,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 407,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 408,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 409,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 410,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 411,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 412,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 413,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 414,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 415,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 416,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 417,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 418,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review presents a"
+    },
+    {
+      "index": 419,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 420,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 421,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 422,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 423,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review explicitly states"
+    },
+    {
+      "index": 424,
+      "true": 2,
+      "pred": 2,
+      "raw": "{\n    \"sentiment\": 2,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 425,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 426,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 427,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 428,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 429,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 430,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review is overwhelmingly"
+    },
+    {
+      "index": 431,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains predominantly"
+    },
+    {
+      "index": 432,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 433,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review explicitly states"
+    },
+    {
+      "index": 434,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 435,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 436,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 437,
+      "true": 2,
+      "pred": 2,
+      "raw": "{\n    \"sentiment\": 2,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 438,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 439,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 440,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 441,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review starts with"
+    },
+    {
+      "index": 442,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review explicitly states"
+    },
+    {
+      "index": 443,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 444,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 445,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 446,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 447,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 448,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 449,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains a"
+    },
+    {
+      "index": 450,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 451,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 452,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 453,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 454,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains a"
+    },
+    {
+      "index": 455,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 456,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 457,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 458,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 459,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 460,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 461,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.92,\n    \"rationale\": \"The review contains predominantly"
+    },
+    {
+      "index": 462,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 463,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 464,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins by"
+    },
+    {
+      "index": 465,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 466,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 467,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 468,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains a"
+    },
+    {
+      "index": 469,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 470,
+      "true": 2,
+      "pred": 2,
+      "raw": "{\n    \"sentiment\": 2,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 471,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 472,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 473,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 474,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 475,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review is overwhelmingly"
+    },
+    {
+      "index": 476,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 477,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 478,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 479,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 480,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 481,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 482,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 483,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 484,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review is overwhelmingly"
+    },
+    {
+      "index": 485,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 486,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 487,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 488,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 489,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 490,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 491,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 492,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 493,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 494,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 495,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 496,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 497,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 498,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review presents a"
+    },
+    {
+      "index": 499,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review is overwhelmingly"
+    },
+    {
+      "index": 500,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 501,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 502,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 503,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 504,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 505,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.9,\n    \"rationale\": \"1. Signal Detection:"
+    },
+    {
+      "index": 506,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 507,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review contains overwhelmingly"
+    },
+    {
+      "index": 508,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 509,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 510,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 511,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains a"
+    },
+    {
+      "index": 512,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 513,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 514,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 515,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 516,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 517,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 518,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 519,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 520,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 521,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 522,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 523,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 524,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 525,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 526,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 527,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 528,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 529,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 530,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 531,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 532,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 533,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 534,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 535,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 536,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 537,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 538,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 539,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 540,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 541,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 542,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 543,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 544,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 545,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 546,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 547,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 548,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 549,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 550,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 551,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 552,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 553,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 554,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 555,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review expresses strong"
+    },
+    {
+      "index": 556,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 557,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains strong"
+    },
+    {
+      "index": 558,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 559,
+      "true": 2,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 560,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 561,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 562,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 563,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 564,
+      "true": 2,
+      "pred": 2,
+      "raw": "{\n    \"sentiment\": 2,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 565,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 566,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 567,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.65,\n    \"rationale\": \"The review contains a"
+    },
+    {
+      "index": 568,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 569,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review is overwhelmingly"
+    },
+    {
+      "index": 570,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 571,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 572,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 573,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 574,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 575,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 576,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 577,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 578,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 579,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 580,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 581,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains a"
+    },
+    {
+      "index": 582,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 583,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 584,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 585,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains strong"
+    },
+    {
+      "index": 586,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 587,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 588,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 589,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 590,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 591,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 592,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 593,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review explicitly states"
+    },
+    {
+      "index": 594,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains strong"
+    },
+    {
+      "index": 595,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 596,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 597,
+      "true": 2,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review explicitly states"
+    },
+    {
+      "index": 598,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 599,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 600,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 601,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 602,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 603,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 604,
+      "true": 2,
+      "pred": 2,
+      "raw": "{\n    \"sentiment\": 2,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 605,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 606,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 607,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 608,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 609,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.92,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 610,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review explicitly states"
+    },
+    {
+      "index": 611,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 612,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 613,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.6,\n    \"rationale\": \"The review contains mixed signals"
+    },
+    {
+      "index": 614,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 615,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 616,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.65,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 617,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review presents a"
+    },
+    {
+      "index": 618,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 619,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 620,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 621,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"The reviewer explicitly states"
+    },
+    {
+      "index": 622,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 623,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 624,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.92,\n    \"rationale\": \"The review explicitly states"
+    },
+    {
+      "index": 625,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review explicitly uses"
+    },
+    {
+      "index": 626,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 627,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 628,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 629,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 630,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 631,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 632,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 633,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains predominantly"
+    },
+    {
+      "index": 634,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 635,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 636,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 637,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 638,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 639,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 640,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 641,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review contains extremely"
+    },
+    {
+      "index": 642,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 643,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 644,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.92,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 645,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 646,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 647,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 648,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 649,
+      "true": 2,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 650,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 651,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review contains overwhelmingly"
+    },
+    {
+      "index": 652,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 653,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 654,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.6,\n    \"rationale\": \"The review starts with a"
+    },
+    {
+      "index": 655,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 656,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 657,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 658,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 659,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 660,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review is overwhelmingly"
+    },
+    {
+      "index": 661,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 662,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 663,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 664,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review is overwhelmingly"
+    },
+    {
+      "index": 665,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 666,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 667,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.92,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 668,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 669,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 670,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.9,\n    \"rationale\": \"1. Signal Detection:"
+    },
+    {
+      "index": 671,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 672,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 673,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 674,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 675,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 676,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 677,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 678,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 679,
+      "true": 1,
+      "pred": 2,
+      "raw": "{\n    \"sentiment\": 2,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 680,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 681,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 682,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 683,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 684,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 685,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 686,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 687,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 688,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 689,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 690,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 691,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review explicitly states"
+    },
+    {
+      "index": 692,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 693,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review presents a"
+    },
+    {
+      "index": 694,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 695,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 696,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 697,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 698,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 699,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 700,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 701,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 702,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 703,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 704,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 705,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 706,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review is overwhelmingly"
+    },
+    {
+      "index": 707,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 708,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 709,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 710,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 711,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 712,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 713,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 714,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains strong"
+    },
+    {
+      "index": 715,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 716,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 717,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 718,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 719,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 720,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 721,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review explicitly states"
+    },
+    {
+      "index": 722,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 723,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 724,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 725,
+      "true": 2,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 726,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 727,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 728,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 729,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 730,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 731,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 732,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 733,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 734,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.75,\n    \"rationale\": \"The review starts with"
+    },
+    {
+      "index": 735,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 736,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 737,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 738,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 739,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 740,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 741,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 742,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 743,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 744,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 745,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 746,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 747,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review expresses frustration"
+    },
+    {
+      "index": 748,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 749,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 750,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 751,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 752,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains strong"
+    },
+    {
+      "index": 753,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review presents a"
+    },
+    {
+      "index": 754,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 755,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 756,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 757,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 758,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.9,\n    \"rationale\": \"1. Signal Detection:"
+    },
+    {
+      "index": 759,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 760,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 761,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 762,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 763,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 764,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 765,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 766,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 767,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains a"
+    },
+    {
+      "index": 768,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains strong"
+    },
+    {
+      "index": 769,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 770,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 771,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 772,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 773,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review is overwhelmingly"
+    },
+    {
+      "index": 774,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review explicitly states"
+    },
+    {
+      "index": 775,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 776,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.6,\n    \"rationale\": \"1. Signal Detection:"
+    },
+    {
+      "index": 777,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.6,\n    \"rationale\": \"The review contains mixed signals"
+    },
+    {
+      "index": 778,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 779,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 780,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 781,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 782,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 783,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.92,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 784,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 785,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 786,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 787,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 788,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 789,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 790,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 791,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 792,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 793,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 794,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review presents a"
+    },
+    {
+      "index": 795,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 796,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.92,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 797,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review presents a"
+    },
+    {
+      "index": 798,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 799,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 800,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 801,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 802,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 803,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 804,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 805,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 806,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 807,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 808,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 809,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review is overwhelmingly"
+    },
+    {
+      "index": 810,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 811,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.92,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 812,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 813,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 814,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 815,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 816,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains a"
+    },
+    {
+      "index": 817,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 818,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 819,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 820,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 821,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 822,
+      "true": 2,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 823,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 824,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 825,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 826,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 827,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains extremely"
+    },
+    {
+      "index": 828,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 829,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 830,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 831,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.92,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 832,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 833,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review explicitly states"
+    },
+    {
+      "index": 834,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 835,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review is overwhelmingly"
+    },
+    {
+      "index": 836,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains predominantly"
+    },
+    {
+      "index": 837,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 838,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 839,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 840,
+      "true": 2,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 841,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review begins with"
+    },
+    {
+      "index": 842,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 843,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review presents a"
+    },
+    {
+      "index": 844,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 845,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 846,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.75,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 847,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 848,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 849,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 850,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 851,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 852,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review explicitly states"
+    },
+    {
+      "index": 853,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 854,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 855,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 856,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 857,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 858,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 859,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 860,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 861,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 862,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review starts with"
+    },
+    {
+      "index": 863,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 864,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 865,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 866,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 867,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 868,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 869,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 870,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review presents a"
+    },
+    {
+      "index": 871,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 872,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 873,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 874,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 875,
+      "true": 0,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 876,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 877,
+      "true": 1,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.85,\n    \"rationale\": \"The review contains mixed"
+    },
+    {
+      "index": 878,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review is overwhelmingly"
+    },
+    {
+      "index": 879,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 880,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 881,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 882,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 883,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 884,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 885,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"The review contains multiple"
+    },
+    {
+      "index": 886,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 887,
+      "true": 2,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 888,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 889,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.92,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 890,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.98,\n    \"rationale\": \"The review is overwhelmingly"
+    },
+    {
+      "index": 891,
+      "true": 2,
+      "pred": 1,
+      "raw": "{\n    \"sentiment\": 1,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 892,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.98,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 893,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 894,
+      "true": 1,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.85,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 895,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    },
+    {
+      "index": 896,
+      "true": 0,
+      "pred": 0,
+      "raw": "{\n    \"sentiment\": 0,\n    \"confidence\": 0.95,\n    \"rationale\": \"1. Signal Detection"
+    }
+  ]
+}
